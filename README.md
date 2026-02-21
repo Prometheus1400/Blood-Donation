@@ -45,6 +45,25 @@ I recently donated blood with WeAreBlood in Austin, and was inspired to try and 
 * **On-Premises Deployment**: Deploy the system on a local server
 * **Hybrid Deployment**: Deploy the system on a combination of cloud and on-prem
 
+**Recent Changes**
+----------------
+
+The application has been updated with actual functionality:
+
+- ✅ **Data Persistence**: Donor data is now saved to a JSON file (`donors.json`)
+- ✅ **Working Forms**: All registration and scheduling forms actually save data
+- ✅ **Fixed Search**: Search functionality works without recursive popup bug
+- ✅ **Donor Management**: View all donors in a sortable table
+- ✅ **Blood Inventory**: Track donations by blood type
+- ✅ **Input Validation**: Forms validate required fields before submission
+- ✅ **Better UI**: Reorganized buttons, proper spacing, and cleaner layout
+
+**To Run**
+---------
+```bash
+python app.py
+```
+
 **Graphical Diagram**
 --------------------
 
